@@ -1,0 +1,6 @@
+<h1>안녕</h1>
+
+{% for file2 in file1.all  %}
+<h1>{{file2.title}}</h1>
+<a id="id_uploaded_file" href="{{ file2.file.url }}" download >  {{ file2.file.name }}</a>
+{% endfor %}
