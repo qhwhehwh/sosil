@@ -1,0 +1,1 @@
+web: gunicorn sosil.wsgi --log-file -
